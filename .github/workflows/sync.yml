@@ -2,11 +2,11 @@ name: Sync Plugin Source
 
 on:
   schedule:
-    - cron: '0 0,8,16 * * *'
+    - cron: '0 0,4,8,12,16,20 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   sync:
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout this repo
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT }}
 
       - name: Clone sibling plugin repos
         env:
@@ -35,6 +35,8 @@ jobs:
         run: pip install pyyaml
 
       - name: Run sync
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         run: python sync_kk_source.py
 
       - name: Commit & push

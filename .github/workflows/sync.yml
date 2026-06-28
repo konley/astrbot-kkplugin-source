@@ -1,0 +1,50 @@
+name: Sync Plugin Source
+
+on:
+  schedule:
+    - cron: '0 0,8,16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Clone sibling plugin repos
+        env:
+          BASE: ${{ github.workspace }}
+        run: |
+          PARENT="$(dirname "$BASE")"
+          for r in astrbot_plugin_call_me astrbot_plugin_isittrue astrbot_plugin_kimage astrbot_plugin_kkban astrbot_plugin_kktools astrbot_plugin_summon astrbot_plugin_zhouli; do
+            git clone --depth 1 "https://github.com/konley/$r.git" "$PARENT/$r"
+          done
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Run sync
+        run: python sync_kk_source.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add plugin_source.json README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: auto sync plugin source"
+          git push

@@ -48,18 +48,6 @@
     "updated_at": "2026-06-27T07:19:26Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kktools/main/logo.png"
   },
-  "astrbot_plugin_call_me": {
-    "display_name": "随叫随到 - 名字唤醒",
-    "desc": "随叫随到！通过昵称或自定义名字唤醒机器人，无需 @。支持配置最多 3 个唤醒名，默认自动检测机器人昵称。",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_call_me",
-    "social_link": "https://github.com/konley",
-    "version": "1.0.0",
-    "astrbot_version": ">=4.17.0",
-    "stars": 0,
-    "updated_at": "2026-06-28T16:26:40Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_call_me/master/logo.png"
-  },
   "astrbot_plugin_zhouli": {
     "display_name": "合乎周礼",
     "desc": "合乎周礼——将现代中文改写为一本正经又略显荒唐的\"周礼白话翻译腔\"，调用 AstrBot 已配置的大模型。",
@@ -76,6 +64,18 @@
     "stars": 0,
     "updated_at": "2026-06-27T17:35:55Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_zhouli/master/logo.png"
+  },
+  "astrbot_plugin_call_me": {
+    "display_name": "随叫随到 - 名字唤醒",
+    "desc": "随叫随到！通过昵称或自定义名字唤醒机器人，无需 @。支持配置最多 3 个唤醒名，默认自动检测机器人昵称。",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_call_me",
+    "social_link": "https://github.com/konley",
+    "version": "1.0.0",
+    "astrbot_version": ">=4.17.0",
+    "stars": 0,
+    "updated_at": "2026-06-28T16:26:40Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_call_me/master/logo.png"
   },
   "astrbot_plugin_kkban": {
     "display_name": "小k拉黑",

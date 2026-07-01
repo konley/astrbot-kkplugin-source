@@ -18,13 +18,26 @@ jobs:
       - name: Clone sibling plugin repos
         env:
           BASE: ${{ github.workspace }}
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GH_TOKEN: ${{ secrets.PAT }}
         run: |
           PARENT="$(dirname "$BASE")"
           # 动态获取所有 astrbot_plugin_* 仓库，无需手动维护列表
-          repos=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
-            "https://api.github.com/users/konley/repos?per_page=100" \
-            | jq -r '.[].name | select(startswith("astrbot_plugin_"))')
+          AUTH_HEADER=""
+          if [ -n "$GH_TOKEN" ]; then
+            AUTH_HEADER="Authorization: Bearer $GH_TOKEN"
+          fi
+          
+          API_RESPONSE=$(curl -s ${AUTH_HEADER:+-H "$AUTH_HEADER"} \
+            "https://api.github.com/users/konley/repos?per_page=100&type=owner")
+          
+          # 检查返回是否为有效 JSON 数组
+          if ! echo "$API_RESPONSE" | jq -e 'type == "array"' > /dev/null 2>&1; then
+            echo "::warning::GitHub API 返回异常，回退到静态列表"
+            repos="astrbot_plugin_call_me astrbot_plugin_isittrue astrbot_plugin_kimage astrbot_plugin_kkban astrbot_plugin_kktools astrbot_plugin_meme_bridge astrbot_plugin_summon astrbot_plugin_zhouli"
+          else
+            repos=$(echo "$API_RESPONSE" | jq -r '.[].name | select(startswith("astrbot_plugin_"))')
+          fi
+          
           for r in $repos; do
             git clone --depth 1 "https://github.com/konley/$r.git" "$PARENT/$r" || true
           done

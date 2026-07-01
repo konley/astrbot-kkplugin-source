@@ -22,7 +22,7 @@ jobs:
         run: |
           PARENT="$(dirname "$BASE")"
           # 用 gh CLI 动态获取所有 astrbot_plugin_* 公共仓库（无需 PAT）
-          repos=$(gh repo list konley --limit 100 --json name --jq '.[].name | select(startswith("astrbot_plugin_"))') || repos=""
+          repos=$(gh repo list konley --limit 100 --no-archived --source --json name --jq '.[].name | select(startswith("astrbot_plugin_"))') || repos=""
           
           if [ -z "$repos" ]; then
             echo "::warning::gh 获取仓库列表失败，回退到静态列表"

@@ -33,35 +33,6 @@
     "updated_at": "2026-06-27T07:19:26Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kktools/main/logo.png"
   },
-  "astrbot_plugin_kimage": {
-    "display_name": "小K图片处理工具箱",
-    "desc": "小K图片处理工具箱，全能的群聊图片/GIF 处理工具。25+ 指令覆盖基础编辑、对称镜像、视觉特效、GIF动效、趣味表情包。全指令支持 GIF 输入，紧凑参数语法，20+ 可调配置项。",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_kimage",
-    "social_link": "https://github.com/konley",
-    "version": "2.1.0",
-    "support_platforms": [
-      "aiocqhttp"
-    ],
-    "stars": 0,
-    "updated_at": "2026-06-27T10:20:42Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kimage/master/logo.png"
-  },
-  "astrbot_plugin_summon": {
-    "display_name": "大召唤术",
-    "desc": "大召唤术! 群内发送关键词自动艾特指定成员，小团体、光速开黑可用:)。支持多群多关键词、自定义文案、权限控制。",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_summon",
-    "social_link": "https://github.com/konley",
-    "version": "1.0.0",
-    "astrbot_version": ">=4.17.0",
-    "support_platforms": [
-      "aiocqhttp"
-    ],
-    "stars": 0,
-    "updated_at": "2026-06-27T13:09:24Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_summon/master/logo.png"
-  },
   "astrbot_plugin_kkban": {
     "display_name": "小k拉黑",
     "desc": "拉黑用户或群聊，机器人已读不回。防刷屏利器（特别是有多机器人时）。",
@@ -89,6 +60,33 @@
     "updated_at": "2026-06-27T09:44:18Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kkban/master/logo.png"
   },
+  "astrbot_plugin_call_me": {
+    "display_name": "随叫随到 - 名字唤醒",
+    "desc": "随叫随到！通过昵称或自定义名字唤醒机器人，无需 @。支持配置最多 3 个唤醒名，默认自动检测机器人昵称。",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_call_me",
+    "social_link": "https://github.com/konley",
+    "version": "1.0.0",
+    "astrbot_version": ">=4.17.0",
+    "stars": 0,
+    "updated_at": "2026-06-28T16:26:40Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_call_me/master/logo.png"
+  },
+  "astrbot_plugin_summon": {
+    "display_name": "大召唤术",
+    "desc": "大召唤术! 群内发送关键词自动艾特指定成员，小团体、光速开黑可用:)。支持多群多关键词、自定义文案、权限控制。",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_summon",
+    "social_link": "https://github.com/konley",
+    "version": "1.0.0",
+    "astrbot_version": ">=4.17.0",
+    "support_platforms": [
+      "aiocqhttp"
+    ],
+    "stars": 0,
+    "updated_at": "2026-06-27T13:09:24Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_summon/master/logo.png"
+  },
   "astrbot_plugin_zhouli": {
     "display_name": "合乎周礼",
     "desc": "合乎周礼——将现代中文改写为一本正经又略显荒唐的\"周礼白话翻译腔\"，调用 AstrBot 已配置的大模型。",
@@ -106,16 +104,18 @@
     "updated_at": "2026-06-27T17:35:55Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_zhouli/master/logo.png"
   },
-  "astrbot_plugin_call_me": {
-    "display_name": "随叫随到 - 名字唤醒",
-    "desc": "随叫随到！通过昵称或自定义名字唤醒机器人，无需 @。支持配置最多 3 个唤醒名，默认自动检测机器人昵称。",
+  "astrbot_plugin_kimage": {
+    "display_name": "小K图片处理工具箱",
+    "desc": "小K图片处理工具箱，全能的群聊图片/GIF 处理工具。25+ 指令覆盖基础编辑、对称镜像、视觉特效、GIF动效、趣味表情包。全指令支持 GIF 输入，紧凑参数语法，20+ 可调配置项。",
     "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_call_me",
+    "repo": "https://github.com/konley/astrbot_plugin_kimage",
     "social_link": "https://github.com/konley",
-    "version": "1.0.0",
-    "astrbot_version": ">=4.17.0",
+    "version": "2.1.0",
+    "support_platforms": [
+      "aiocqhttp"
+    ],
     "stars": 0,
-    "updated_at": "2026-06-28T16:26:40Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_call_me/master/logo.png"
+    "updated_at": "2026-06-27T10:20:42Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kimage/master/logo.png"
   }
 }

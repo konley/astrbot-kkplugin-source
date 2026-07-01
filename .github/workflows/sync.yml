@@ -18,10 +18,15 @@ jobs:
       - name: Clone sibling plugin repos
         env:
           BASE: ${{ github.workspace }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         run: |
           PARENT="$(dirname "$BASE")"
-          for r in astrbot_plugin_call_me astrbot_plugin_isittrue astrbot_plugin_kimage astrbot_plugin_kkban astrbot_plugin_kktools astrbot_plugin_summon astrbot_plugin_zhouli; do
-            git clone --depth 1 "https://github.com/konley/$r.git" "$PARENT/$r"
+          # 动态获取所有 astrbot_plugin_* 仓库，无需手动维护列表
+          repos=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
+            "https://api.github.com/users/konley/repos?per_page=100" \
+            | jq -r '.[].name | select(startswith("astrbot_plugin_"))')
+          for r in $repos; do
+            git clone --depth 1 "https://github.com/konley/$r.git" "$PARENT/$r" || true
           done
 
       - name: Setup Python

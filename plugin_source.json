@@ -5,7 +5,7 @@
     "author": "konley",
     "repo": "https://github.com/konley/astrbot_plugin_isittrue",
     "social_link": "https://github.com/konley",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "astrbot_version": ">=3.5.0",
     "support_platforms": [
       "aiocqhttp",
@@ -13,19 +13,8 @@
       "telegram"
     ],
     "stars": 2,
-    "updated_at": "2026-06-28T15:49:04Z",
+    "updated_at": "2026-07-02T04:40:19Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_isittrue/main/logo.png"
-  },
-  "astrbot_plugin_meme_bridge": {
-    "display_name": "meme_bridge",
-    "desc": "表情包桥接插件 - 自动将 smart_imagechat_hub 收集的表情包按标签分类同步到 meme_manager",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_meme_bridge",
-    "social_link": "https://github.com/konley",
-    "version": "v1.1.0",
-    "stars": 0,
-    "updated_at": "2026-07-01T08:38:57Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_meme_bridge/main/logo.png"
   },
   "astrbot_plugin_kktools": {
     "display_name": "kk工具箱",
@@ -53,22 +42,43 @@
     "version": "0.3.1",
     "astrbot_version": ">=4.17.0"
   },
-  "astrbot_plugin_zhouli": {
-    "display_name": "合乎周礼",
-    "desc": "合乎周礼——将现代中文改写为一本正经又略显荒唐的\"周礼白话翻译腔\"，调用 AstrBot 已配置的大模型。",
+  "astrbot_plugin_kkban": {
+    "display_name": "小k拉黑",
+    "desc": "拉黑用户或群聊，机器人已读不回。防刷屏利器（特别是有多机器人时）。",
     "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_zhouli",
+    "repo": "https://github.com/konley/astrbot_plugin_kkban",
     "social_link": "https://github.com/konley",
     "version": "1.0.0",
-    "astrbot_version": ">=3.5.0",
+    "astrbot_version": ">=4.17.0",
     "support_platforms": [
       "aiocqhttp",
       "qq_official",
-      "telegram"
+      "telegram",
+      "wecom",
+      "lark",
+      "dingtalk",
+      "discord",
+      "slack",
+      "kook",
+      "vocechat",
+      "satori",
+      "misskey",
+      "line"
     ],
     "stars": 0,
+    "updated_at": "2026-06-27T09:44:18Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kkban/master/logo.png"
+  },
+  "astrbot_plugin_meme_bridge": {
+    "display_name": "meme_bridge",
+    "desc": "表情包桥接插件 - 自动将 smart_imagechat_hub 收集的表情包按标签分类同步到 meme_manager",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_meme_bridge",
+    "social_link": "https://github.com/konley",
+    "version": "v1.1.0",
+    "stars": 1,
     "updated_at": "2026-07-01T08:38:57Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_zhouli/master/logo.png"
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_meme_bridge/main/logo.png"
   },
   "astrbot_plugin_summon": {
     "display_name": "大召唤术",
@@ -97,31 +107,21 @@
     "updated_at": "2026-06-28T16:26:40Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_call_me/master/logo.png"
   },
-  "astrbot_plugin_kkban": {
-    "display_name": "小k拉黑",
-    "desc": "拉黑用户或群聊，机器人已读不回。防刷屏利器（特别是有多机器人时）。",
+  "astrbot_plugin_zhouli": {
+    "display_name": "合乎周礼",
+    "desc": "合乎周礼——将现代中文改写为一本正经又略显荒唐的\"周礼白话翻译腔\"，调用 AstrBot 已配置的大模型。",
     "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_kkban",
+    "repo": "https://github.com/konley/astrbot_plugin_zhouli",
     "social_link": "https://github.com/konley",
     "version": "1.0.0",
-    "astrbot_version": ">=4.17.0",
+    "astrbot_version": ">=3.5.0",
     "support_platforms": [
       "aiocqhttp",
       "qq_official",
-      "telegram",
-      "wecom",
-      "lark",
-      "dingtalk",
-      "discord",
-      "slack",
-      "kook",
-      "vocechat",
-      "satori",
-      "misskey",
-      "line"
+      "telegram"
     ],
     "stars": 0,
-    "updated_at": "2026-06-27T09:44:18Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kkban/master/logo.png"
+    "updated_at": "2026-07-01T08:38:57Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_zhouli/master/logo.png"
   }
 }

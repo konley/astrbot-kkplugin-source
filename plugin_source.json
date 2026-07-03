@@ -1,13 +1,4 @@
 {
-  "astrbot_plugin_minimax_quota": {
-    "display_name": "MiniMax 限额查询",
-    "desc": "查询 MiniMax 套餐限额，触发指令 /mmquota，支持定时播报与阶梯告警",
-    "author": "v_klixie",
-    "repo": "https://github.com/v_klixie/astrbot_plugin_minimax_quota",
-    "social_link": "https://github.com/v_klixie",
-    "version": "0.3.1",
-    "astrbot_version": ">=4.17.0"
-  },
   "astrbot_plugin_meme_bridge": {
     "display_name": "meme_bridge",
     "desc": "表情包桥接插件 - 自动将 smart_imagechat_hub 收集的表情包按标签分类同步到 meme_manager",
@@ -18,21 +9,6 @@
     "stars": 1,
     "updated_at": "2026-07-01T08:38:57Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_meme_bridge/main/logo.png"
-  },
-  "astrbot_plugin_summon": {
-    "display_name": "大召唤术",
-    "desc": "大召唤术! 群内发送关键词自动艾特指定成员，小团体、光速开黑可用:)。支持多群多关键词、自定义文案、权限控制。",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_summon",
-    "social_link": "https://github.com/konley",
-    "version": "1.2.0",
-    "astrbot_version": ">=4.17.0",
-    "support_platforms": [
-      "aiocqhttp"
-    ],
-    "stars": 0,
-    "updated_at": "2026-07-01T08:38:57Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_summon/master/logo.png"
   },
   "astrbot_plugin_isittrue": {
     "display_name": "是真的吗",
@@ -51,18 +27,6 @@
     "updated_at": "2026-07-02T04:40:19Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_isittrue/main/logo.png"
   },
-  "astrbot_plugin_call_me": {
-    "display_name": "随叫随到 - 名字唤醒",
-    "desc": "随叫随到！通过昵称或自定义名字唤醒机器人，无需 @。支持配置最多 3 个唤醒名，默认自动检测机器人昵称。",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_call_me",
-    "social_link": "https://github.com/konley",
-    "version": "1.0.0",
-    "astrbot_version": ">=4.17.0",
-    "stars": 0,
-    "updated_at": "2026-06-28T16:26:40Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_call_me/master/logo.png"
-  },
   "astrbot_plugin_kktools": {
     "display_name": "kk工具箱",
     "desc": "kk工具箱——省流总结、识图、阴阳怪气、地理定位，调用 AstrBot 已配置的大模型。",
@@ -79,6 +43,27 @@
     "stars": 0,
     "updated_at": "2026-06-27T07:19:26Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kktools/main/logo.png"
+  },
+  "astrbot_plugin_minimax_quota": {
+    "display_name": "MiniMax 限额查询",
+    "desc": "查询 MiniMax 套餐限额，触发指令 /mmquota，支持定时播报与阶梯告警",
+    "author": "v_klixie",
+    "repo": "https://github.com/v_klixie/astrbot_plugin_minimax_quota",
+    "social_link": "https://github.com/v_klixie",
+    "version": "0.3.1",
+    "astrbot_version": ">=4.17.0"
+  },
+  "astrbot_plugin_call_me": {
+    "display_name": "随叫随到 - 名字唤醒",
+    "desc": "随叫随到！通过昵称或自定义名字唤醒机器人，无需 @。支持配置最多 3 个唤醒名，默认自动检测机器人昵称。",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_call_me",
+    "social_link": "https://github.com/konley",
+    "version": "1.0.0",
+    "astrbot_version": ">=4.17.0",
+    "stars": 0,
+    "updated_at": "2026-06-28T16:26:40Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_call_me/master/logo.png"
   },
   "astrbot_plugin_kkban": {
     "display_name": "小k拉黑",
@@ -123,5 +108,20 @@
     "stars": 0,
     "updated_at": "2026-07-01T08:38:57Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_zhouli/master/logo.png"
+  },
+  "astrbot_plugin_summon": {
+    "display_name": "大召唤术",
+    "desc": "大召唤术! 群内发送关键词自动艾特指定成员，小团体、光速开黑可用:)。支持多群多关键词、自定义文案、权限控制。",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_summon",
+    "social_link": "https://github.com/konley",
+    "version": "1.2.0",
+    "astrbot_version": ">=4.17.0",
+    "support_platforms": [
+      "aiocqhttp"
+    ],
+    "stars": 0,
+    "updated_at": "2026-07-01T08:38:57Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_summon/master/logo.png"
   }
 }

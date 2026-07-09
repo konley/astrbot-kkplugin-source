@@ -10,23 +10,6 @@
     "updated_at": "2026-07-06T14:48:42Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_meme_bridge/main/logo.png"
   },
-  "astrbot_plugin_kktools": {
-    "display_name": "kk工具箱",
-    "desc": "kk工具箱——省流总结、识图、阴阳怪气、地理定位，调用 AstrBot 已配置的大模型。",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_kktools",
-    "social_link": "https://github.com/konley",
-    "version": "1.0.0",
-    "astrbot_version": ">=3.5.0",
-    "support_platforms": [
-      "aiocqhttp",
-      "qq_official",
-      "telegram"
-    ],
-    "stars": 0,
-    "updated_at": "2026-06-27T07:19:26Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kktools/main/logo.png"
-  },
   "astrbot_plugin_isittrue": {
     "display_name": "是真的吗",
     "desc": "是真的吗——群聊事实核查小工具。@机器人说出你想核实的事情，或引用一条消息，AI 自动判断真假。无需额外 API，即装即用。",
@@ -44,16 +27,66 @@
     "updated_at": "2026-07-02T04:40:19Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_isittrue/main/logo.png"
   },
-  "astrbot_plugin_minimax_quota": {
-    "display_name": "MiniMax 限额查询",
-    "desc": "查询 MiniMax 套餐限额，触发指令 /mmquota，支持定时播报与阶梯告警",
+  "astrbot_plugin_kktools": {
+    "display_name": "kk工具箱",
+    "desc": "kk工具箱——省流总结、识图、阴阳怪气、地理定位，调用 AstrBot 已配置的大模型。",
     "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_minimax_quota",
+    "repo": "https://github.com/konley/astrbot_plugin_kktools",
     "social_link": "https://github.com/konley",
-    "version": "0.3.1",
-    "astrbot_version": ">=4.17.0",
+    "version": "1.0.0",
+    "astrbot_version": ">=3.5.0",
+    "support_platforms": [
+      "aiocqhttp",
+      "qq_official",
+      "telegram"
+    ],
     "stars": 0,
-    "updated_at": "2026-07-03T16:31:17Z"
+    "updated_at": "2026-06-27T07:19:26Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kktools/main/logo.png"
+  },
+  "astrbot_plugin_kkban": {
+    "display_name": "小k拉黑",
+    "desc": "拉黑用户或群聊，机器人已读不回。防刷屏利器（特别是有多机器人时）。",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_kkban",
+    "social_link": "https://github.com/konley",
+    "version": "1.0.0",
+    "astrbot_version": ">=4.17.0",
+    "support_platforms": [
+      "aiocqhttp",
+      "qq_official",
+      "telegram",
+      "wecom",
+      "lark",
+      "dingtalk",
+      "discord",
+      "slack",
+      "kook",
+      "vocechat",
+      "satori",
+      "misskey",
+      "line"
+    ],
+    "stars": 0,
+    "updated_at": "2026-06-27T09:44:18Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kkban/master/logo.png"
+  },
+  "astrbot_plugin_zhouli": {
+    "display_name": "合乎周礼",
+    "desc": "合乎周礼——将现代中文改写为一本正经又略显荒唐的\"周礼白话翻译腔\"，调用 AstrBot 已配置的大模型。",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_zhouli",
+    "social_link": "https://github.com/konley",
+    "version": "1.0.0",
+    "astrbot_version": ">=3.5.0",
+    "support_platforms": [
+      "aiocqhttp",
+      "qq_official",
+      "telegram"
+    ],
+    "stars": 0,
+    "updated_at": "2026-07-01T08:38:57Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_zhouli/master/logo.png"
   },
   "astrbot_plugin_call_me": {
     "display_name": "随叫随到 - 名字唤醒",
@@ -82,48 +115,15 @@
     "updated_at": "2026-07-01T08:38:57Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_summon/master/logo.png"
   },
-  "astrbot_plugin_zhouli": {
-    "display_name": "合乎周礼",
-    "desc": "合乎周礼——将现代中文改写为一本正经又略显荒唐的\"周礼白话翻译腔\"，调用 AstrBot 已配置的大模型。",
+  "astrbot_plugin_minimax_quota": {
+    "display_name": "MiniMax 限额查询",
+    "desc": "查询 MiniMax 套餐限额，触发指令 /mmquota，支持定时播报与阶梯告警",
     "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_zhouli",
+    "repo": "https://github.com/konley/astrbot_plugin_minimax_quota",
     "social_link": "https://github.com/konley",
-    "version": "1.0.0",
-    "astrbot_version": ">=3.5.0",
-    "support_platforms": [
-      "aiocqhttp",
-      "qq_official",
-      "telegram"
-    ],
-    "stars": 0,
-    "updated_at": "2026-07-01T08:38:57Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_zhouli/master/logo.png"
-  },
-  "astrbot_plugin_kkban": {
-    "display_name": "小k拉黑",
-    "desc": "拉黑用户或群聊，机器人已读不回。防刷屏利器（特别是有多机器人时）。",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_kkban",
-    "social_link": "https://github.com/konley",
-    "version": "1.0.0",
+    "version": "0.3.1",
     "astrbot_version": ">=4.17.0",
-    "support_platforms": [
-      "aiocqhttp",
-      "qq_official",
-      "telegram",
-      "wecom",
-      "lark",
-      "dingtalk",
-      "discord",
-      "slack",
-      "kook",
-      "vocechat",
-      "satori",
-      "misskey",
-      "line"
-    ],
     "stars": 0,
-    "updated_at": "2026-06-27T09:44:18Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kkban/master/logo.png"
+    "updated_at": "2026-07-03T16:31:17Z"
   }
 }

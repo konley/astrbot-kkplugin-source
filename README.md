@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/konley/astrbot-kkplugin-source/main/plugin_sou
 
 ---
 
-🔄 共 **8** 个插件 | 更新于 **2026-07-12**
+🔄 共 **9** 个插件 | 更新于 **2026-07-12**
 
 | 图标 | 插件信息 |
 |:----:|:--------|
@@ -24,5 +24,6 @@ https://raw.githubusercontent.com/konley/astrbot-kkplugin-source/main/plugin_sou
 | <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_kktools/main/logo.png" width="64"> | <b>kk工具箱</b><br>kk工具箱——省流总结、识图、阴阳怪气、地理定位，调用 AstrBot 已配置的大模型。<br><br><code>👤 konley</code> <code>📦 1.0.0</code> <code>🔧 aiocqhttp, qq_official, telegram</code><br><br><a href="https://github.com/konley/astrbot_plugin_kktools">📂 GitHub 仓库 →</a> |
 | <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_meme_bridge/main/logo.png" width="64"> | <b>meme_bridge</b><br>表情包桥接插件 - 自动将 smart_imagechat_hub 收集的表情包按标签分类同步到 meme_manager<br><br><code>👤 konley</code> <code>📦 v1.2.0</code><br><br><a href="https://github.com/konley/astrbot_plugin_meme_bridge">📂 GitHub 仓库 →</a> |
 | 📦 | <b>MiniMax 限额查询</b><br>查询 MiniMax 套餐限额，触发指令 /mmquota，支持定时播报与阶梯告警<br><br><code>👤 konley</code> <code>📦 0.3.1</code><br><br><a href="https://github.com/konley/astrbot_plugin_minimax_quota">📂 GitHub 仓库 →</a> |
+| <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_randommeme/main/logo.png" width="64"> | <b>随机表情包</b><br>随机抽取表情包：关键词触发，从组别目录中不重复地抽一张图片发送。支持多组别、别名、需/唤醒开关、WebUI 管理与上传。<br><br><code>👤 konley</code> <code>📦 1.0.0</code> <code>🔧 aiocqhttp, qq_official</code><br><br><a href="https://github.com/konley/astrbot_plugin_randommeme">📂 GitHub 仓库 →</a> |
 | <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_summon/master/logo.png" width="64"> | <b>大召唤术</b><br>大召唤术! 群内发送关键词自动艾特指定成员，小团体、光速开黑可用:)。支持多群多关键词、自定义文案、权限控制。<br><br><code>👤 konley</code> <code>📦 1.2.0</code> <code>🔧 aiocqhttp</code><br><br><a href="https://github.com/konley/astrbot_plugin_summon">📂 GitHub 仓库 →</a> |
 | <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_zhouli/master/logo.png" width="64"> | <b>合乎周礼</b><br>合乎周礼——将现代中文改写为一本正经又略显荒唐的"周礼白话翻译腔"，调用 AstrBot 已配置的大模型。<br><br><code>👤 konley</code> <code>📦 1.0.0</code> <code>🔧 aiocqhttp, qq_official, telegram</code><br><br><a href="https://github.com/konley/astrbot_plugin_zhouli">📂 GitHub 仓库 →</a> |

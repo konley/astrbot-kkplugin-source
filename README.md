@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/konley/astrbot-kkplugin-source/main/plugin_sou
 
 ---
 
-🔄 共 **12** 个插件 | 更新于 **2026-07-20**
+🔄 共 **12** 个插件 | 更新于 **2026-07-21**
 
 | 图标 | 插件信息 |
 |:----:|:--------|

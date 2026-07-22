@@ -1,4 +1,20 @@
 {
+  "astrbot_plugin_randommeme": {
+    "display_name": "随机表情包",
+    "desc": "随机抽取表情包：关键词触发，从组别目录中不重复地抽一张图片发送。支持多组别、别名、需唤醒开关、WebUI 管理，以及聊天指令（表情 加/新/别名）。",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_randommeme",
+    "social_link": "https://github.com/konley",
+    "version": "1.1.1",
+    "astrbot_version": ">=4.0.0",
+    "support_platforms": [
+      "aiocqhttp",
+      "qq_official"
+    ],
+    "stars": 0,
+    "updated_at": "2026-07-22T04:32:17Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_randommeme/main/logo.png"
+  },
   "astrbot_plugin_isittrue": {
     "display_name": "是真的吗",
     "desc": "是真的吗——群聊事实核查小工具。@机器人说出你想核实的事情，或引用一条消息，AI 自动判断真假。无需额外 API，即装即用。",
@@ -15,54 +31,6 @@
     "stars": 2,
     "updated_at": "2026-07-02T04:40:19Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_isittrue/main/logo.png"
-  },
-  "astrbot_plugin_sensenova_t2i": {
-    "display_name": "SenseNova 文生图",
-    "desc": "SenseNova U1 文生图插件 — 调用商汤日日新 sensenova-u1-fast 模型，支持 Prompt 增强、11 种尺寸、多图生成、信息图模式",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_sensenova_t2i",
-    "social_link": "https://github.com/konley",
-    "version": "0.1.0",
-    "astrbot_version": ">=3.5.0",
-    "support_platforms": [
-      "aiocqhttp",
-      "qq_official",
-      "telegram",
-      "wecom",
-      "lark",
-      "discord"
-    ],
-    "stars": 0,
-    "updated_at": "2026-07-13T09:48:55Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_sensenova_t2i/main/logo.png"
-  },
-  "astrbot_plugin_meme_bridge": {
-    "display_name": "meme_bridge",
-    "desc": "表情包桥接插件 - 自动将 smart_imagechat_hub 收集的表情包按标签分类同步到 meme_manager",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_meme_bridge",
-    "social_link": "https://github.com/konley",
-    "version": "v1.2.0",
-    "stars": 1,
-    "updated_at": "2026-07-06T14:48:42Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_meme_bridge/main/logo.png"
-  },
-  "astrbot_plugin_kktools": {
-    "display_name": "kk工具箱",
-    "desc": "kk工具箱——省流总结、识图、阴阳怪气、地理定位，调用 AstrBot 已配置的大模型。",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_kktools",
-    "social_link": "https://github.com/konley",
-    "version": "1.0.0",
-    "astrbot_version": ">=3.5.0",
-    "support_platforms": [
-      "aiocqhttp",
-      "qq_official",
-      "telegram"
-    ],
-    "stars": 0,
-    "updated_at": "2026-06-27T07:19:26Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kktools/main/logo.png"
   },
   "astrbot_plugin_kkban": {
     "display_name": "小k拉黑",
@@ -140,21 +108,71 @@
     "stars": 0,
     "updated_at": "2026-07-15T02:32:05Z"
   },
-  "astrbot_plugin_randommeme": {
-    "display_name": "随机表情包",
-    "desc": "随机抽取表情包：关键词触发，从组别目录中不重复地抽一张图片发送。支持多组别、别名、需唤醒开关、WebUI 管理，以及聊天指令（表情 加/新/别名）。",
+  "astrbot_plugin_kkt": {
+    "display_name": "康康图",
+    "desc": "康康图：通过 OpenAI 兼容接口生成和编辑图片，支持多图、引用图文、可配置唤醒词、别名与群黑名单",
     "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_randommeme",
+    "repo": "https://github.com/konley/astrbot_plugin_kkt",
     "social_link": "https://github.com/konley",
-    "version": "1.1.1",
-    "astrbot_version": ">=4.0.0",
+    "version": "0.3.8",
+    "astrbot_version": ">=4.17.0",
     "support_platforms": [
       "aiocqhttp",
-      "qq_official"
+      "qq_official",
+      "telegram",
+      "discord"
     ],
     "stars": 0,
-    "updated_at": "2026-07-22T04:32:17Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_randommeme/main/logo.png"
+    "updated_at": "2026-07-22T10:27:16Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kkt/master/logo.png"
+  },
+  "astrbot_plugin_meme_bridge": {
+    "display_name": "meme_bridge",
+    "desc": "表情包桥接插件 - 自动将 smart_imagechat_hub 收集的表情包按标签分类同步到 meme_manager",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_meme_bridge",
+    "social_link": "https://github.com/konley",
+    "version": "v1.2.0",
+    "stars": 1,
+    "updated_at": "2026-07-06T14:48:42Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_meme_bridge/main/logo.png"
+  },
+  "astrbot_plugin_kktools": {
+    "display_name": "kk工具箱",
+    "desc": "kk工具箱——省流总结、识图、阴阳怪气、地理定位，调用 AstrBot 已配置的大模型。",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_kktools",
+    "social_link": "https://github.com/konley",
+    "version": "1.0.0",
+    "astrbot_version": ">=3.5.0",
+    "support_platforms": [
+      "aiocqhttp",
+      "qq_official",
+      "telegram"
+    ],
+    "stars": 0,
+    "updated_at": "2026-06-27T07:19:26Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kktools/main/logo.png"
+  },
+  "astrbot_plugin_sensenova_t2i": {
+    "display_name": "SenseNova 文生图",
+    "desc": "SenseNova U1 文生图插件 — 调用商汤日日新 sensenova-u1-fast 模型，支持 Prompt 增强、11 种尺寸、多图生成、信息图模式",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_sensenova_t2i",
+    "social_link": "https://github.com/konley",
+    "version": "0.1.0",
+    "astrbot_version": ">=3.5.0",
+    "support_platforms": [
+      "aiocqhttp",
+      "qq_official",
+      "telegram",
+      "wecom",
+      "lark",
+      "discord"
+    ],
+    "stars": 0,
+    "updated_at": "2026-07-13T09:48:55Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_sensenova_t2i/main/logo.png"
   },
   "astrbot_plugin_summon": {
     "display_name": "大召唤术",

@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/konley/astrbot-kkplugin-source/main/plugin_sou
 
 | 图标 | 插件信息 |
 |:----:|:--------|
-| 📦 | <b>A股热力图</b><br>A股大盘热力图，52etf官方截图 + 本地自绘(热力图2)，支持定时推送到群<br><br><code>👤 konley</code> <code>📦 0.2.0</code> <code>🔧 aiocqhttp, qq_official, telegram</code><br><br><a href="https://github.com/konley/astrbot_plugin_a_heatmap">📂 GitHub 仓库 →</a> |
+| 📦 | <b>A股热力图</b><br>A股大盘热力图，52etf高清视口截图 + 本地自绘(热力图2)，支持定时推送到群<br><br><code>👤 konley</code> <code>📦 0.2.4</code> <code>🔧 aiocqhttp, qq_official, telegram</code><br><br><a href="https://github.com/konley/astrbot_plugin_a_heatmap">📂 GitHub 仓库 →</a> |
 | <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_call_me/master/logo.png" width="64"> | <b>随叫随到 - 名字唤醒</b><br>随叫随到！通过昵称或自定义名字唤醒机器人，无需 @。支持配置最多 3 个唤醒名，默认自动检测机器人昵称。<br><br><code>👤 konley</code> <code>📦 1.0.0</code><br><br><a href="https://github.com/konley/astrbot_plugin_call_me">📂 GitHub 仓库 →</a> |
 | 📦 | <b>DeepSeek 余额查询</b><br>查询 DeepSeek 账户余额，触发指令 /dsquota，支持定时播报与低余额阶梯告警<br><br><code>👤 konley</code> <code>📦 0.1.0</code><br><br><a href="https://github.com/konley/astrbot_plugin_dsquota">📂 GitHub 仓库 →</a> |
 | <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_isittrue/main/logo.png" width="64"> | <b>是真的吗</b><br>是真的吗——群聊事实核查小工具。@机器人说出你想核实的事情，或引用一条消息，AI 自动判断真假。无需额外 API，即装即用。<br><br><code>👤 konley</code> <code>📦 1.1.0</code> <code>🔧 aiocqhttp, qq_official, telegram</code><br><br><a href="https://github.com/konley/astrbot_plugin_isittrue">📂 GitHub 仓库 →</a> |

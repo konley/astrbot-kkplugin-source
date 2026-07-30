@@ -16,27 +16,6 @@
     "updated_at": "2026-07-28T16:03:38Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_calc/main/logo.png"
   },
-  "astrbot_plugin_kkmusicbox": {
-    "display_name": "康康随机音乐盒",
-    "desc": "康康随机音乐盒：关键词触发，从分类目录随机抽取音乐并发送可点播的语音消息。支持别名、模糊/精确匹配、忽略/前缀。",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_kkmusicbox",
-    "social_link": "https://github.com/konley",
-    "tags": [
-      "音乐",
-      "语音",
-      "随机",
-      "音乐盒"
-    ],
-    "version": "0.3.1",
-    "astrbot_version": ">=4.0.0",
-    "support_platforms": [
-      "aiocqhttp"
-    ],
-    "stars": 0,
-    "updated_at": "2026-07-25T16:00:39Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kkmusicbox/main/logo.png"
-  },
   "astrbot_plugin_meme_bridge": {
     "display_name": "meme_bridge",
     "desc": "表情包桥接插件 - 自动将 smart_imagechat_hub 收集的表情包按标签分类同步到 meme_manager",
@@ -47,6 +26,40 @@
     "stars": 1,
     "updated_at": "2026-07-06T14:48:42Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_meme_bridge/main/logo.png"
+  },
+  "astrbot_plugin_isittrue": {
+    "display_name": "是真的吗",
+    "desc": "是真的吗——群聊事实核查小工具。@机器人说出你想核实的事情，或引用一条消息，AI 自动判断真假。无需额外 API，即装即用。",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_isittrue",
+    "social_link": "https://github.com/konley",
+    "version": "1.2.1",
+    "astrbot_version": ">=4.0.0",
+    "support_platforms": [
+      "aiocqhttp",
+      "qq_official",
+      "telegram"
+    ],
+    "stars": 2,
+    "updated_at": "2026-07-26T09:56:42Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_isittrue/main/logo.png"
+  },
+  "astrbot_plugin_kktools": {
+    "display_name": "kk工具箱",
+    "desc": "kk工具箱——省流总结、识图、阴阳怪气、地理定位，调用 AstrBot 已配置的大模型。",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_kktools",
+    "social_link": "https://github.com/konley",
+    "version": "1.1.0",
+    "astrbot_version": ">=3.5.0",
+    "support_platforms": [
+      "aiocqhttp",
+      "qq_official",
+      "telegram"
+    ],
+    "stars": 0,
+    "updated_at": "2026-07-26T08:25:45Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kktools/main/logo.png"
   },
   "astrbot_plugin_kkban": {
     "display_name": "小k拉黑",
@@ -104,39 +117,26 @@
     "updated_at": "2026-07-30T03:32:04Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_a_heatmap/main/logo.png"
   },
-  "astrbot_plugin_kktools": {
-    "display_name": "kk工具箱",
-    "desc": "kk工具箱——省流总结、识图、阴阳怪气、地理定位，调用 AstrBot 已配置的大模型。",
+  "astrbot_plugin_kkmusicbox": {
+    "display_name": "康康随机音乐盒",
+    "desc": "康康随机音乐盒：关键词触发，从分类目录随机抽取音乐并发送可点播的语音消息。支持别名、模糊/精确匹配、忽略/前缀。",
     "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_kktools",
+    "repo": "https://github.com/konley/astrbot_plugin_kkmusicbox",
     "social_link": "https://github.com/konley",
-    "version": "1.1.0",
-    "astrbot_version": ">=3.5.0",
-    "support_platforms": [
-      "aiocqhttp",
-      "qq_official",
-      "telegram"
+    "tags": [
+      "音乐",
+      "语音",
+      "随机",
+      "音乐盒"
     ],
-    "stars": 0,
-    "updated_at": "2026-07-26T08:25:45Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kktools/main/logo.png"
-  },
-  "astrbot_plugin_isittrue": {
-    "display_name": "是真的吗",
-    "desc": "是真的吗——群聊事实核查小工具。@机器人说出你想核实的事情，或引用一条消息，AI 自动判断真假。无需额外 API，即装即用。",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_isittrue",
-    "social_link": "https://github.com/konley",
-    "version": "1.2.1",
+    "version": "0.3.1",
     "astrbot_version": ">=4.0.0",
     "support_platforms": [
-      "aiocqhttp",
-      "qq_official",
-      "telegram"
+      "aiocqhttp"
     ],
-    "stars": 2,
-    "updated_at": "2026-07-26T09:56:42Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_isittrue/main/logo.png"
+    "stars": 0,
+    "updated_at": "2026-07-25T16:00:39Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kkmusicbox/main/logo.png"
   },
   "astrbot_plugin_kkt": {
     "display_name": "康康图",
@@ -167,6 +167,18 @@
     "updated_at": "2026-07-30T03:32:36Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_dsquota/main/logo.png"
   },
+  "astrbot_plugin_minimax_quota": {
+    "display_name": "MiniMax 限额查询",
+    "desc": "查询 MiniMax 套餐限额，触发指令 /mmquota，支持定时播报与阶梯告警",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_minimax_quota",
+    "social_link": "https://github.com/konley",
+    "version": "0.3.2",
+    "astrbot_version": ">=4.17.0",
+    "stars": 0,
+    "updated_at": "2026-07-30T03:31:53Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_minimax_quota/main/logo.png"
+  },
   "astrbot_plugin_randommeme": {
     "display_name": "随机表情包",
     "desc": "随机抽取表情包：关键词触发，从组别目录中不重复地抽一张图片发送。支持多组别、别名、需唤醒开关、WebUI 管理，以及聊天指令（表情 加/新/别名）。",
@@ -182,6 +194,22 @@
     "stars": 0,
     "updated_at": "2026-07-22T04:32:17Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_randommeme/main/logo.png"
+  },
+  "astrbot_plugin_number_bomb": {
+    "display_name": "数字炸弹",
+    "desc": "群聊数字炸弹：轮流猜数缩区间，超时催促后强制引爆，积分护盾抵消，管理员拆弹",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_number_bomb",
+    "social_link": "https://github.com/konley",
+    "version": "0.2.7",
+    "support_platforms": [
+      "aiocqhttp",
+      "qq_official",
+      "telegram"
+    ],
+    "stars": 0,
+    "updated_at": "2026-07-29T07:13:15Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_number_bomb/main/logo.png"
   },
   "astrbot_plugin_sensenova_t2i": {
     "display_name": "SenseNova 文生图",
@@ -202,34 +230,6 @@
     "stars": 0,
     "updated_at": "2026-07-13T09:48:55Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_sensenova_t2i/main/logo.png"
-  },
-  "astrbot_plugin_number_bomb": {
-    "display_name": "数字炸弹",
-    "desc": "群聊数字炸弹：轮流猜数缩区间，超时催促后强制引爆，积分护盾抵消，管理员拆弹",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_number_bomb",
-    "social_link": "https://github.com/konley",
-    "version": "0.2.7",
-    "support_platforms": [
-      "aiocqhttp",
-      "qq_official",
-      "telegram"
-    ],
-    "stars": 0,
-    "updated_at": "2026-07-29T07:13:15Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_number_bomb/main/logo.png"
-  },
-  "astrbot_plugin_minimax_quota": {
-    "display_name": "MiniMax 限额查询",
-    "desc": "查询 MiniMax 套餐限额，触发指令 /mmquota，支持定时播报与阶梯告警",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_minimax_quota",
-    "social_link": "https://github.com/konley",
-    "version": "0.3.2",
-    "astrbot_version": ">=4.17.0",
-    "stars": 0,
-    "updated_at": "2026-07-30T03:31:53Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_minimax_quota/main/logo.png"
   },
   "astrbot_plugin_summon": {
     "display_name": "大召唤术",

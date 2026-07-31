@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/konley/astrbot-kkplugin-source/main/plugin_sou
 
 ---
 
-🔄 共 **16** 个插件 | 更新于 **2026-07-30**
+🔄 共 **16** 个插件 | 更新于 **2026-07-31**
 
 | 图标 | 插件信息 |
 |:----:|:--------|
@@ -25,7 +25,7 @@ https://raw.githubusercontent.com/konley/astrbot-kkplugin-source/main/plugin_sou
 | <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_isittrue/main/logo.png" width="64"> | <b>是真的吗</b><br>是真的吗——群聊事实核查小工具。@机器人说出你想核实的事情，或引用一条消息，AI 自动判断真假。无需额外 API，即装即用。<br><br><code>👤 konley</code> <code>📦 1.2.1</code> <code>🔧 aiocqhttp, qq_official, telegram</code><br><br><a href="https://github.com/konley/astrbot_plugin_isittrue">📂 GitHub 仓库 →</a> |
 | <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_kkban/master/logo.png" width="64"> | <b>小k拉黑</b><br>拉黑用户或群聊，机器人已读不回。防刷屏利器（特别是有多机器人时）。<br><br><code>👤 konley</code> <code>📦 1.0.0</code> <code>🔧 aiocqhttp, qq_official, telegram, wecom, lark, dingtalk, discord, slack, kook, vocechat, satori, misskey, line</code><br><br><a href="https://github.com/konley/astrbot_plugin_kkban">📂 GitHub 仓库 →</a> |
 | <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_kkmusicbox/main/logo.png" width="64"> | <b>康康随机音乐盒</b><br>康康随机音乐盒：关键词触发，从分类目录随机抽取音乐并发送可点播的语音消息。支持别名、模糊/精确匹配、忽略/前缀。<br><br><code>👤 konley</code> <code>📦 0.3.1</code> <code>🔧 aiocqhttp</code><br><br><a href="https://github.com/konley/astrbot_plugin_kkmusicbox">📂 GitHub 仓库 →</a> |
-| <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_kkt/master/logo.png" width="64"> | <b>康康图</b><br>康康图：通过 OpenAI 兼容接口生成和编辑图片，支持多图、引用图文、可配置唤醒词、别名与群黑名单<br><br><code>👤 konley</code> <code>📦 0.6.6</code> <code>🔧 aiocqhttp, qq_official, telegram, discord</code><br><br><a href="https://github.com/konley/astrbot_plugin_kkt">📂 GitHub 仓库 →</a> |
+| <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_kkt/master/logo.png" width="64"> | <b>康康图</b><br>康康图：OpenAI 兼容生图/修图，分通道额度与预估费用，多图/引用/群黑名单<br><br><code>👤 konley</code> <code>📦 0.7.0</code> <code>🔧 aiocqhttp, qq_official, telegram, discord</code><br><br><a href="https://github.com/konley/astrbot_plugin_kkt">📂 GitHub 仓库 →</a> |
 | <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_kktools/main/logo.png" width="64"> | <b>kk工具箱</b><br>kk工具箱——省流总结、识图、阴阳怪气、地理定位，调用 AstrBot 已配置的大模型。<br><br><code>👤 konley</code> <code>📦 1.1.0</code> <code>🔧 aiocqhttp, qq_official, telegram</code><br><br><a href="https://github.com/konley/astrbot_plugin_kktools">📂 GitHub 仓库 →</a> |
 | <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_meme_bridge/main/logo.png" width="64"> | <b>meme_bridge</b><br>表情包桥接插件 - 自动将 smart_imagechat_hub 收集的表情包按标签分类同步到 meme_manager<br><br><code>👤 konley</code> <code>📦 v1.2.0</code><br><br><a href="https://github.com/konley/astrbot_plugin_meme_bridge">📂 GitHub 仓库 →</a> |
 | <img src="https://raw.githubusercontent.com/konley/astrbot_plugin_minimax_quota/main/logo.png" width="64"> | <b>MiniMax 限额查询</b><br>查询 MiniMax 套餐限额，触发指令 /mmquota，支持定时播报与阶梯告警<br><br><code>👤 konley</code> <code>📦 0.3.2</code><br><br><a href="https://github.com/konley/astrbot_plugin_minimax_quota">📂 GitHub 仓库 →</a> |

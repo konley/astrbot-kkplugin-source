@@ -1,21 +1,4 @@
 {
-  "astrbot_plugin_isittrue": {
-    "display_name": "是真的吗",
-    "desc": "是真的吗——群聊事实核查小工具。@机器人说出你想核实的事情，或引用一条消息，AI 自动判断真假。无需额外 API，即装即用。",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_isittrue",
-    "social_link": "https://github.com/konley",
-    "version": "1.6.0",
-    "astrbot_version": ">=4.0.0",
-    "support_platforms": [
-      "aiocqhttp",
-      "qq_official",
-      "telegram"
-    ],
-    "stars": 5,
-    "updated_at": "2026-09-04T07:00:20Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_isittrue/main/logo.png"
-  },
   "astrbot_plugin_calc": {
     "display_name": "速算",
     "desc": "群聊速算：自动从对话提取算式并计算，支持四则/括号/幂与等式验算",
@@ -33,22 +16,43 @@
     "updated_at": "2026-07-31T11:43:57Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_calc/main/logo.png"
   },
-  "astrbot_plugin_kktools": {
-    "display_name": "kk工具箱",
-    "desc": "kk工具箱——省流总结、识图、阴阳怪气、地理定位，调用 AstrBot 已配置的大模型。",
+  "astrbot_plugin_isittrue": {
+    "display_name": "是真的吗",
+    "desc": "是真的吗——群聊事实核查小工具。@机器人说出你想核实的事情，或引用一条消息，AI 自动判断真假。无需额外 API，即装即用。",
     "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_kktools",
+    "repo": "https://github.com/konley/astrbot_plugin_isittrue",
     "social_link": "https://github.com/konley",
-    "version": "1.3.0",
-    "astrbot_version": ">=3.5.0",
+    "version": "1.6.0",
+    "astrbot_version": ">=4.0.0",
     "support_platforms": [
       "aiocqhttp",
       "qq_official",
       "telegram"
     ],
+    "stars": 5,
+    "updated_at": "2026-09-04T07:00:20Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_isittrue/main/logo.png"
+  },
+  "astrbot_plugin_chaosound": {
+    "display_name": "潮汕话发音",
+    "desc": "潮汕话在线发音：输入文字返回谐音、拼音和语音，可选潮州/汕头/揭阳音",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_chaosound",
+    "social_link": "https://github.com/konley",
+    "tags": [
+      "潮汕话",
+      "潮州话",
+      "TTS",
+      "语音"
+    ],
+    "version": "0.2.0",
+    "astrbot_version": ">=4.16,<5",
+    "support_platforms": [
+      "aiocqhttp"
+    ],
     "stars": 0,
-    "updated_at": "2026-08-07T13:09:33Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kktools/main/logo.png"
+    "updated_at": "2026-08-26T13:10:11Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_chaosound/main/logo.png"
   },
   "astrbot_plugin_dsquota": {
     "display_name": "DeepSeek 余额查询",
@@ -78,26 +82,22 @@
     "updated_at": "2026-08-08T07:10:07Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_a_heatmap/main/logo.png"
   },
-  "astrbot_plugin_chaosound": {
-    "display_name": "潮汕话发音",
-    "desc": "潮汕话在线发音：输入文字返回谐音、拼音和语音，可选潮州/汕头/揭阳音",
+  "astrbot_plugin_kktools": {
+    "display_name": "kk工具箱",
+    "desc": "kk工具箱——省流总结、识图、阴阳怪气、地理定位，调用 AstrBot 已配置的大模型。",
     "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_chaosound",
+    "repo": "https://github.com/konley/astrbot_plugin_kktools",
     "social_link": "https://github.com/konley",
-    "tags": [
-      "潮汕话",
-      "潮州话",
-      "TTS",
-      "语音"
-    ],
-    "version": "0.2.0",
-    "astrbot_version": ">=4.16,<5",
+    "version": "1.3.0",
+    "astrbot_version": ">=3.5.0",
     "support_platforms": [
-      "aiocqhttp"
+      "aiocqhttp",
+      "qq_official",
+      "telegram"
     ],
     "stars": 0,
-    "updated_at": "2026-08-26T13:10:11Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_chaosound/main/logo.png"
+    "updated_at": "2026-08-07T13:09:33Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kktools/main/logo.png"
   },
   "astrbot_plugin_kkmusicbox": {
     "display_name": "康康随机音乐盒",
@@ -119,6 +119,18 @@
     "stars": 0,
     "updated_at": "2026-08-09T10:10:57Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kkmusicbox/main/logo.png"
+  },
+  "astrbot_plugin_call_me": {
+    "display_name": "随叫随到 - 名字唤醒",
+    "desc": "随叫随到！通过昵称或自定义名字唤醒机器人，无需 @。支持配置最多 3 个唤醒名，默认自动检测机器人昵称。",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_call_me",
+    "social_link": "https://github.com/konley",
+    "version": "1.0.0",
+    "astrbot_version": ">=4.17.0",
+    "stars": 0,
+    "updated_at": "2026-06-28T16:26:40Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_call_me/master/logo.png"
   },
   "astrbot_plugin_kkban": {
     "display_name": "小k拉黑",
@@ -147,18 +159,6 @@
     "updated_at": "2026-06-27T09:44:18Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kkban/master/logo.png"
   },
-  "astrbot_plugin_call_me": {
-    "display_name": "随叫随到 - 名字唤醒",
-    "desc": "随叫随到！通过昵称或自定义名字唤醒机器人，无需 @。支持配置最多 3 个唤醒名，默认自动检测机器人昵称。",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_call_me",
-    "social_link": "https://github.com/konley",
-    "version": "1.0.0",
-    "astrbot_version": ">=4.17.0",
-    "stars": 0,
-    "updated_at": "2026-06-28T16:26:40Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_call_me/master/logo.png"
-  },
   "astrbot_plugin_kkt": {
     "display_name": "康康图",
     "desc": "康康图：多通道生图/修图、Grok 2K、视频转 GIF、多图参考、GIF 分镜与 grok2api 视频，并提供 KKT Studio WebUI 控制台",
@@ -177,17 +177,6 @@
     "updated_at": "2026-08-17T07:19:08Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_kkt/master/logo.png"
   },
-  "astrbot_plugin_meme_bridge": {
-    "display_name": "meme_bridge",
-    "desc": "表情包桥接插件 - 自动将 smart_imagechat_hub 收集的表情包按标签分类同步到 meme_manager",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_meme_bridge",
-    "social_link": "https://github.com/konley",
-    "version": "v1.2.0",
-    "stars": 1,
-    "updated_at": "2026-07-06T14:48:42Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_meme_bridge/main/logo.png"
-  },
   "astrbot_plugin_minimax_quota": {
     "display_name": "MiniMax 限额查询",
     "desc": "查询 MiniMax 套餐限额，触发指令 /mmquota，支持定时播报与阶梯告警",
@@ -200,21 +189,20 @@
     "updated_at": "2026-07-30T03:31:53Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_minimax_quota/main/logo.png"
   },
-  "astrbot_plugin_randommeme": {
-    "display_name": "随机表情包",
-    "desc": "随机抽取表情包：关键词触发，从组别目录中不重复地抽一张图片发送。支持多组别、别名、需唤醒开关、WebUI 管理，以及聊天指令（表情 加/新/别名）。",
+  "astrbot_plugin_newapi_quota": {
+    "display_name": "NewAPI 额度查询",
+    "desc": "查询 NewAPI 中转站 API Key 额度，支持多 Key 别名、自定义换算、定时播报与低余额告警",
     "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_randommeme",
+    "repo": "https://github.com/konley/astrbot_plugin_newapi_quota",
     "social_link": "https://github.com/konley",
-    "version": "1.1.1",
-    "astrbot_version": ">=4.0.0",
+    "version": "0.1.3",
+    "astrbot_version": ">=4.17.0",
     "support_platforms": [
-      "aiocqhttp",
-      "qq_official"
+      "aiocqhttp"
     ],
     "stars": 0,
-    "updated_at": "2026-07-22T04:32:17Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_randommeme/main/logo.png"
+    "updated_at": "2026-08-04T05:03:25Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_newapi_quota/main/logo.png"
   },
   "astrbot_plugin_sensenova_t2i": {
     "display_name": "SenseNova 文生图",
@@ -252,40 +240,47 @@
     "updated_at": "2026-07-29T07:13:15Z",
     "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_number_bomb/main/logo.png"
   },
-  "astrbot_plugin_tavilyquota": {
-    "display_name": "Tavily 套餐额度查询",
-    "desc": "Tavily 额度查询与 Key 接力：/tvquota 查询当前活跃 Key 额度，/tvrotate 手动切换备用 Key，支持额度耗尽自动接力",
+  "astrbot_plugin_summon": {
+    "display_name": "大召唤术",
+    "desc": "大召唤术! 群内发送关键词自动艾特指定成员，小团体、光速开黑可用:)。支持多群多关键词、自定义文案、权限控制。",
     "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_tavilyquota",
+    "repo": "https://github.com/konley/astrbot_plugin_summon",
     "social_link": "https://github.com/konley",
-    "tags": [
-      "额度查询",
-      "tavily",
-      "工具",
-      "quota"
-    ],
-    "version": "0.2.0",
-    "support_platforms": [
-      "aiocqhttp"
-    ],
-    "stars": 0,
-    "updated_at": "2026-08-05T10:12:18Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_tavilyquota/main/logo.png"
-  },
-  "astrbot_plugin_newapi_quota": {
-    "display_name": "NewAPI 额度查询",
-    "desc": "查询 NewAPI 中转站 API Key 额度，支持多 Key 别名、自定义换算、定时播报与低余额告警",
-    "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_newapi_quota",
-    "social_link": "https://github.com/konley",
-    "version": "0.1.3",
+    "version": "1.2.0",
     "astrbot_version": ">=4.17.0",
     "support_platforms": [
       "aiocqhttp"
     ],
     "stars": 0,
-    "updated_at": "2026-08-04T05:03:25Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_newapi_quota/main/logo.png"
+    "updated_at": "2026-07-01T08:38:57Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_summon/master/logo.png"
+  },
+  "astrbot_plugin_meme_bridge": {
+    "display_name": "meme_bridge",
+    "desc": "表情包桥接插件 - 自动将 smart_imagechat_hub 收集的表情包按标签分类同步到 meme_manager",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_meme_bridge",
+    "social_link": "https://github.com/konley",
+    "version": "v1.2.0",
+    "stars": 1,
+    "updated_at": "2026-07-06T14:48:42Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_meme_bridge/main/logo.png"
+  },
+  "astrbot_plugin_randommeme": {
+    "display_name": "随机表情包",
+    "desc": "随机抽取表情包：关键词触发，从组别目录中不重复地抽一张图片发送。支持多组别、别名、需唤醒开关、WebUI 管理，以及聊天指令（表情 加/新/别名）。",
+    "author": "konley",
+    "repo": "https://github.com/konley/astrbot_plugin_randommeme",
+    "social_link": "https://github.com/konley",
+    "version": "1.1.1",
+    "astrbot_version": ">=4.0.0",
+    "support_platforms": [
+      "aiocqhttp",
+      "qq_official"
+    ],
+    "stars": 0,
+    "updated_at": "2026-07-22T04:32:17Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_randommeme/main/logo.png"
   },
   "astrbot_plugin_sayustock": {
     "display_name": "早柚股票",
@@ -310,20 +305,25 @@
     "stars": 74,
     "updated_at": "2026-09-04T04:59:02Z"
   },
-  "astrbot_plugin_summon": {
-    "display_name": "大召唤术",
-    "desc": "大召唤术! 群内发送关键词自动艾特指定成员，小团体、光速开黑可用:)。支持多群多关键词、自定义文案、权限控制。",
+  "astrbot_plugin_tavilyquota": {
+    "display_name": "Tavily 套餐额度查询",
+    "desc": "Tavily 额度查询与 Key 接力：/tvquota 查询当前活跃 Key 额度，/tvrotate 手动切换备用 Key，支持额度耗尽自动接力",
     "author": "konley",
-    "repo": "https://github.com/konley/astrbot_plugin_summon",
+    "repo": "https://github.com/konley/astrbot_plugin_tavilyquota",
     "social_link": "https://github.com/konley",
-    "version": "1.2.0",
-    "astrbot_version": ">=4.17.0",
+    "tags": [
+      "额度查询",
+      "tavily",
+      "工具",
+      "quota"
+    ],
+    "version": "0.2.0",
     "support_platforms": [
       "aiocqhttp"
     ],
     "stars": 0,
-    "updated_at": "2026-07-01T08:38:57Z",
-    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_summon/master/logo.png"
+    "updated_at": "2026-08-05T10:12:18Z",
+    "logo": "https://raw.githubusercontent.com/konley/astrbot_plugin_tavilyquota/main/logo.png"
   },
   "astrbot_plugin_zhouli": {
     "display_name": "合乎周礼",
